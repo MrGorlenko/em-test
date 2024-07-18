@@ -1,0 +1,45 @@
+# Binaries for programs and plugins
+*.exe
+*.dll
+*.so
+*.dylib
+*.test
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+
+# Temporary and cache files
+*.log
+*.tmp
+
+# Folders
+bin/
+build/
+go-build/
+.cache/
+vendor/
+pkg/mod/
+pkg/sumdb/
+
+# IDE and Editor files
+.idea/
+.vscode/
+*.iml
+
+# Docker files and directories
+docker-compose.override.yml
+docker-compose.local.yml
+docker-compose.test.yml
+docker/
+
+# Environment variables file
+.env
+
+# Config files
+config/*.json
+config/*.yaml
+config/*.yml
+
+# Testing and profiling files
+*.cover
+*.prof
